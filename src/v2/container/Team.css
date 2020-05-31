@@ -1,0 +1,72 @@
+@media only screen and (max-width: 420px) and (orientation: portrait) {
+    .team {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .card {
+        margin: 30px 10px;
+    }
+
+    .pic {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: rgb(245, 245, 255);
+        display: inline-block;
+    }
+
+    .profile {
+        display: inline-block;
+        vertical-align: top;
+        padding: 36px 0 0 15px;
+    }
+
+    .name,
+    .designation {
+        text-align: left;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-height: 420px) and (orientation: landscape) {
+    .team {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .card {
+        margin: 30px 10px;
+        text-align: center;
+    }
+
+    .card:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .pic {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: rgb(245, 245, 255);
+        display: inline-block;
+    }
+
+    .profile {
+        display: inline-block;
+        vertical-align: top;
+        padding: 36px 0 0 15px;
+    }
+
+    .name,
+    .designation {
+        text-align: left;
+        margin: 0;
+    }
+}

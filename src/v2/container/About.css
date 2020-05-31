@@ -1,0 +1,21 @@
+@media only screen and (max-width: 420px) and (orientation: portrait) {
+    .about {
+        padding: 30px;
+        text-align: center;
+        background-color: #EEE2DC;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (max-height: 420px) and (orientation: landscape) {
+    .about {
+        padding: 30px;
+        text-align: center;
+        background-color: #EEE2DC;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
